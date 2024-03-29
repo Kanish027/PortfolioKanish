@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav {
+  padding: 10px 0px !important;
+  /* border-radius: 0 !important; */
+}
