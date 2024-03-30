@@ -25,15 +25,15 @@ const Hero = () => {
             <div className="max-w-2xl">
               <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                 <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-                  Software designer, developer, and amateur astronaut.
+                  Software Development Engineer.
                 </h1>
               </div>
               <div>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  I’m Kanish Mohariya, a software designer and developer based
-                  in New York City. I’m the founder and CEO of Planetaria, where
-                  we develop technologies that empower regular people to explore
-                  space on their own terms.
+                  I'm Kanish Mohariya, a Nagpur-based software designer and
+                  developer who has successfully completed an internship at
+                  Trickysys IT Solutions, along with a Full Stack Development
+                  Guaranteed Placement course from Internshala Trainings.
                 </p>
               </div>
               <div className="text-white text-2xl mt-6 flex gap-6">

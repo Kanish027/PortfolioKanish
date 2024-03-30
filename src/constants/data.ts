@@ -2,34 +2,34 @@
 
 export const EductionAndExperiences = [
   {
-    title: "Secondary",
+    title: "Secondary School",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    duration: "1 Year",
+      "Studied various subjects including Mathematics, Science, English, and Social Studies.",
+    duration: "Completed in 2017",
   },
   {
-    title: "Higher Secondary",
+    title: "Higher Secondary School",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime.",
-    duration: "1 Year",
+      "Focused on Information Technology and built first web design using HTML, CSS, and Bootstrap.",
+    duration: "Completed in 2019",
   },
   {
-    title: "Bachelor's of Engineering (BE)",
+    title: "Bachelor's of Engineering (IT)",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    duration: "4 Years",
+      "Studied a comprehensive curriculum covering all subjects of Computer Science.",
+    duration: "Completed in 2023 (4 Years)",
   },
   {
     title: "Trickysys IT Solutions",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    duration: "3 Months",
+      "Served as a web developer intern at Trickysys IT Solutions, gaining valuable hands-on experience in web development technologies and practices.",
+    duration: "Completed in 2023 (3 Months)",
   },
   {
     title: "Internshala Trainings",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    duration: "6 Months",
+      "I have completed 6 months of full-stack development training through Internshala Trainings and learned by building small assignments to real world major projects.",
+    duration: "Completed in 2024 (6 Months)",
   },
 ];
 

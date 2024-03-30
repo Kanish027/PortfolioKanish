@@ -8,6 +8,11 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import Link from "next/link";
 import { testimonials } from "../../constants/data";
 import { IoIosLink } from "react-icons/io";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 const Icon = () => {
   return (
@@ -68,16 +73,24 @@ const Projects = () => {
                       <GlowingStarsDescription>
                         The Full Stack Ecommerce Web Application with Admin
                         Dashboard.
+                        <br />
+                        <span className="my-2 text-xs">
+                          React. Node. Express. Mongo. Bootstrap
+                        </span>
                       </GlowingStarsDescription>
                       <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-                        <Link href={"https://applewithkanish.netlify.app/"}>
+                        <Link
+                          href={"https://applewithkanish.netlify.app/"}
+                          target="blank"
+                        >
                           <Icon />
                         </Link>
                       </div>
                     </div>
                     <Link
                       href={"https://github.com/Kanish027/Ecommerce---Frontend"}
-                      className="text-white flex items-center gap-2 mt-4"
+                      className="text-white flex items-center gap-2 mt-2"
+                      target="blank"
                     >
                       <div>
                         <IoIosLink />
@@ -93,9 +106,16 @@ const Projects = () => {
                       <GlowingStarsDescription>
                         The Full Stack Social Media App created during Full
                         Stack Development Training.
+                        <br />
+                        <span className="my-2 text-xs">
+                          React. Node. Express. Mongo. MUI
+                        </span>
                       </GlowingStarsDescription>
                       <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-                        <Link href={"https://twitterint.netlify.app/"}>
+                        <Link
+                          href={"https://twitterint.netlify.app/"}
+                          target="blank"
+                        >
                           <Icon />
                         </Link>
                       </div>
@@ -104,7 +124,8 @@ const Projects = () => {
                       href={
                         "https://github.com/Kanish027/Social-Media-Frontend"
                       }
-                      className="text-white flex items-center gap-2 mt-4"
+                      target="blank"
+                      className="text-white flex items-center gap-2 mt-2"
                     >
                       <div>
                         <IoIosLink />
@@ -118,18 +139,26 @@ const Projects = () => {
                     </GlowingStarsTitle>
                     <div className="flex justify-between items-end">
                       <GlowingStarsDescription>
-                        The Full Stack Ecommerce Web Application with Admin
-                        Dashboard.
+                        The Full Stack Sales Application for Adding sales entry
+                        with Authentication.
+                        <br />
+                        <span className="my-2 text-xs">
+                          React. Node. Express. Mongo. Bootstrap
+                        </span>
                       </GlowingStarsDescription>
                       <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-                        <Link href={"https://salesappint.netlify.app/"}>
+                        <Link
+                          href={"https://salesappint.netlify.app/"}
+                          target="blank"
+                        >
                           <Icon />
                         </Link>
                       </div>
                     </div>
                     <Link
                       href={"https://github.com/Kanish027/Sales-App-Frontend"}
-                      className="text-white flex items-center gap-2 mt-4"
+                      className="text-white flex items-center gap-2 mt-2"
+                      target="blank"
                     >
                       <div>
                         <IoIosLink />
@@ -143,18 +172,27 @@ const Projects = () => {
                     </GlowingStarsTitle>
                     <div className="flex justify-between items-end">
                       <GlowingStarsDescription>
-                        The Full Stack Ecommerce Web Application with Admin
-                        Dashboard.
+                        The Ecommerce User Interface (UI) was developed as part
+                        of the frontend training in Internshala's full-stack
+                        course.
+                        <br />
+                        <span className="my-2 text-xs">
+                          HTML. CSS. Bootstrap. JavaScript. Swiper.js
+                        </span>
                       </GlowingStarsDescription>
                       <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-                        <Link href={"/"}>
+                        <Link
+                          href={"https://elegant-druid-dd7b4c.netlify.app/"}
+                          target="blank"
+                        >
                           <Icon />
                         </Link>
                       </div>
                     </div>
                     <Link
                       href={"https://github.com/Kanish027/E-Commerce-Frontend"}
-                      className="text-white flex items-center gap-2 mt-4"
+                      className="text-white flex items-center gap-2 mt-2"
+                      target="blank"
                     >
                       <div>
                         <IoIosLink />
@@ -168,18 +206,60 @@ const Projects = () => {
                     </GlowingStarsTitle>
                     <div className="flex justify-between items-end">
                       <GlowingStarsDescription>
-                        The Full Stack Ecommerce Web Application with Admin
-                        Dashboard.
+                        A meme generator was developed using ReactJS and the
+                        Imgflip API for accessing meme templates.
+                        <br />
+                        <span className="my-2 text-xs">
+                          React. CSS. JavaScript. Imgflip API
+                        </span>
                       </GlowingStarsDescription>
                       <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
-                        <Link href={"https://meme-generator-kanish027.vercel.app/"}>
+                        <Link
+                          href={"https://meme-generator-kanish027.vercel.app/"}
+                          target="blank"
+                        >
                           <Icon />
                         </Link>
                       </div>
                     </div>
                     <Link
                       href={"https://github.com/Kanish027/meme-generator"}
-                      className="text-white flex items-center gap-2 mt-4"
+                      className="text-white flex items-center gap-2 mt-2"
+                      target="blank"
+                    >
+                      <div>
+                        <IoIosLink />
+                      </div>
+                      <div>GitHub</div>
+                    </Link>
+                  </GlowingStarsBackgroundCard>
+                  <GlowingStarsBackgroundCard>
+                    <GlowingStarsTitle className="my-2">
+                      Portfolio
+                    </GlowingStarsTitle>
+                    <div className="flex justify-between items-end">
+                      <GlowingStarsDescription>
+                        Personal Portfolio showcasing projects, technical
+                        skills, and provide user information with contact
+                        details.
+                        <br />
+                        <span className="my-2 text-xs">
+                          Nextjs. Tailwind CSS. Aceternity UI
+                        </span>
+                      </GlowingStarsDescription>
+                      <div className="h-8 w-8 rounded-full bg-[hsla(0,0%,100%,.1)] flex items-center justify-center">
+                        <Link
+                          href={"https://main--kanish.netlify.app/"}
+                          target="blank"
+                        >
+                          <Icon />
+                        </Link>
+                      </div>
+                    </div>
+                    <Link
+                      href={"https://github.com/Kanish027/PortfolioKanish"}
+                      className="text-white flex items-center gap-2 mt-2"
+                      target="blank"
                     >
                       <div>
                         <IoIosLink />

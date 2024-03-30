@@ -9,6 +9,11 @@ import {
 } from "react-icons/ai";
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 import { EductionAndExperiences } from "../../constants/data";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Me",
+};
 
 const About = () => {
   return (
@@ -42,38 +47,39 @@ const About = () => {
                   </div>
                   <div className="lg:order-first lg:row-span-2">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:white">
-                      I’m Spencer Sharp. I live in New York City, where I design
-                      the future.
+                      I’m Kanish Mohariya. I live in Nagpur City.
                     </h1>
                     <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc">
                       <p>
-                        I’ve loved making things for as long as I can remember,
-                        and wrote my first program when I was 6 years old, just
-                        two weeks after my mom brought home the brand new
-                        Macintosh LC 550 that I taught myself to type on.
+                        I'm Kanish Mohariya, an IT graduate with a strong
+                        passion for web development. With hands-on experience as
+                        a Web Developer Intern at TrickySys IT Solutions and
+                        specialized training in the MERN stack from Internshala
+                        Trainings, I bring a blend of practical skills and
+                        theoretical knowledge to the table.
                       </p>
                       <p>
-                        The only thing I loved more than computers as a kid was
-                        space. When I was 8, I climbed the 40-foot oak tree at
-                        the back of our yard while wearing my older sister’s
-                        motorcycle helmet, counted down from three, and jumped —
-                        hoping the tree was tall enough that with just a bit of
-                        momentum I’d be able to get to orbit.
+                        During my internship, I contributed to the development
+                        of dynamic web applications, gaining valuable insights
+                        into front-end and back-end technologies. The intensive
+                        6-month Full Stack Web Development training sharpened my
+                        expertise in MongoDB, Express.js, React.js, and Node.js,
+                        empowering me to create robust and scalable solutions.
                       </p>
                       <p>
-                        I spent the next few summers indoors working on a rocket
-                        design, while I recovered from the multiple surgeries it
-                        took to fix my badly broken legs. It took nine
-                        iterations, but when I was 15 I sent my dad’s Blackberry
-                        into orbit and was able to transmit a photo back down to
-                        our family computer from space.
+                        Driven by a love for crafting seamless digital
+                        experiences, I continuously strive to stay updated with
+                        the latest industry trends and best practices. My
+                        proficiency extends to HTML, CSS, JavaScript, React,
+                        Node.js, and more, enabling me to tackle complex
+                        challenges with confidence and creativity.
                       </p>
                       <p>
-                        Today, I’m the founder of Planetaria, where we’re
-                        working on civilian space suits and manned shuttle kits
-                        you can assemble at home so that the next generation of
-                        kids really can make it to orbit — from the comfort of
-                        their own backyards.
+                        I thrive in collaborative environments where innovation
+                        and problem-solving are encouraged. Committed to
+                        delivering excellence, I am eager to leverage my skills
+                        and contribute meaningfully to transformative web
+                        development projects.
                       </p>
                     </div>
                   </div>
