@@ -276,11 +276,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="rounded-md mt-16 flex flex-col antialiased items-center justify-center relative overflow-hidden">
-          <InfiniteMovingCards
+          {/* <InfiniteMovingCards
             items={testimonials}
             direction="right"
             speed="slow"
-          />
+          /> */}
         </div>
       </main>
       <Footer />
