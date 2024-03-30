@@ -8,6 +8,7 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import { GrLinkDown } from "react-icons/gr";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="my-4">
-              <img
+              <Image
                 src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
                 alt=""
                 className="rounded-full w-14"
