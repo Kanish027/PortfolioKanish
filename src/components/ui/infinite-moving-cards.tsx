@@ -94,7 +94,7 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <span className="relative z-20 text-2xl flex justify-center">
-                <img src={item.quote} alt="" />
+                {item.quote}
               </span>
             </blockquote>
           </li>

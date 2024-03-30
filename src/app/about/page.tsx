@@ -35,14 +35,14 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                   <div className="lg:pl-20">
                     <div className="max-w-xs px-2.5 lg:max-w-none">
-                      {/* <img
+                      <img
                         alt=""
                         src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=828&q=75"
                         width="800"
                         height="800"
                         className="aspect-square rotate-3 rounded-2xl"
                         sizes="(min-width: 1024px) 32rem, 20rem"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="lg:order-first lg:row-span-2">
