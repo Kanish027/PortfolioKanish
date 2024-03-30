@@ -10,7 +10,6 @@ import {
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 import { EductionAndExperiences } from "../../constants/data";
 import type { Metadata } from "next";
-import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Me",
@@ -21,7 +20,7 @@ const About = () => {
     <div>
       <div className="fixed px-10 top-7">
         <Link href={"/"}>
-          <Image
+          <img
             src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
             alt=""
             className="rounded-full w-10"
@@ -36,11 +35,11 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                   <div className="lg:pl-20">
                     <div className="max-w-xs px-2.5 lg:max-w-none">
-                      <Image
+                      <img
                         alt=""
                         src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=828&q=75"
-                        width={800}
-                        height={800}
+                        width="800"
+                        height="800"
                         className="aspect-square rotate-3 rounded-2xl"
                         sizes="(min-width: 1024px) 32rem, 20rem"
                       />
