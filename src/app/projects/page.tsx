@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "@/components/Footer";
 import {
   GlowingStarsBackgroundCard,
@@ -20,7 +21,7 @@ const Icon = () => {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      stroke-width="1.5"
+      strokeWidth={1.5}
       stroke="currentColor"
       className="h-4 w-4 text-white stroke-2"
     >
@@ -64,7 +65,7 @@ const Projects = () => {
                 </header>
               </div>
               <div className="flex py-20 items-center justify-center antialiased">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4  lg:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3">
                   <GlowingStarsBackgroundCard>
                     <GlowingStarsTitle className="my-2">
                       Ecommerce App
