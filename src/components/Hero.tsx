@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="my-4">
               <img
                 src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
-                alt=""
+                alt="user-profile"
                 className="rounded-full w-14"
               />
             </div>
