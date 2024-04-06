@@ -272,19 +272,19 @@ const Projects = () => {
                   </GlowingStarsBackgroundCard>
                 </div>
               </div>
-              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc">
+              {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc">
                 Tech Stacks
-              </h1>
+              </h1> */}
             </div>
           </div>
         </div>
-        <div className="rounded-md mt-16 flex flex-col antialiased items-center justify-center relative overflow-hidden">
+        {/* <div className="rounded-md mt-16 flex flex-col antialiased items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
             speed="slow"
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
