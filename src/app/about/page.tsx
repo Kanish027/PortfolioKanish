@@ -41,13 +41,12 @@ const About = () => {
                         width="800"
                         height="800"
                         className="aspect-square rotate-3 rounded-2xl"
-                        sizes="(min-width: 1024px) 32rem, 20rem"
                       />
                     </div>
                   </div>
                   <div className="lg:order-first lg:row-span-2">
                     <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:white">
-                      I’m Kanish Mohariya. I live in Nagpur City.
+                      I{"'"}m Kanish Mohariya. I live in Nagpur City.
                     </h1>
                     <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc">
                       <p>
