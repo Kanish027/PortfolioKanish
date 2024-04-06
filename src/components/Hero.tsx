@@ -33,7 +33,7 @@ const Hero = () => {
               </div>
               <div>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  I'm Kanish Mohariya, a Nagpur-based software designer and
+                  I{"'"}m Kanish Mohariya, a Nagpur-based software designer and
                   developer who has successfully completed an internship at
                   Trickysys IT Solutions, along with a Full Stack Development
                   Guaranteed Placement course from Internshala Trainings.
