@@ -10,6 +10,7 @@ import {
 import { HoverEffect } from "../../components/ui/card-hover-effect";
 import { EductionAndExperiences } from "../../constants/data";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "About Me",
@@ -35,7 +36,7 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
                   <div className="lg:pl-20">
                     <div className="max-w-xs px-2.5 lg:max-w-none">
-                      <img
+                      <Image
                         alt=""
                         src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=828&q=75"
                         width="800"
