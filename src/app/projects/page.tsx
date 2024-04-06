@@ -176,7 +176,7 @@ const Projects = () => {
                     <div className="flex justify-between items-end">
                       <GlowingStarsDescription>
                         The Ecommerce User Interface (UI) was developed as part
-                        of the frontend training in Internshala's full-stack
+                        of the frontend training in Internshala{"'"}s full-stack
                         course.
                         <br />
                         <span className="my-2 text-xs">
