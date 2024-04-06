@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "@/components/Footer";
 import {
   GlowingStarsBackgroundCard,
@@ -21,7 +20,7 @@ const Icon = () => {
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
-      strokeWidth={1.5}
+      stroke-width="1.5"
       stroke="currentColor"
       className="h-4 w-4 text-white stroke-2"
     >
@@ -39,11 +38,11 @@ const Projects = () => {
     <div>
       <div className="fixed px-10 top-7">
         <Link href={"/"}>
-          {/* <img
+          <img
             src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
             alt=""
             className="rounded-full w-10"
-          /> */}
+          />
         </Link>
       </div>
       <main className="flex-auto">
@@ -56,13 +55,16 @@ const Projects = () => {
                     Things I’ve made trying to put my dent in the universe.
                   </h1>
                   <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                    {/* I&apos;ve worked on tons of little projects over the years
-                    but these are the ones that I&apos;m most proud of. */}
+                    I&rsquo;ve worked on tons of little projects over the years
+                    but these are the ones that I&rsquo;m most proud of. Many of
+                    them are open-source, so if you see something that piques
+                    your interest, check out the code and contribute if you have
+                    ideas for how it can be improved.
                   </p>
                 </header>
               </div>
               <div className="flex py-20 items-center justify-center antialiased">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4  lg:grid-cols-3">
                   <GlowingStarsBackgroundCard>
                     <GlowingStarsTitle className="my-2">
                       Ecommerce App
