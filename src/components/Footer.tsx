@@ -22,18 +22,18 @@ const Footer = () => {
                     >
                       Projects
                     </Link>
-                    <Link
+                    {/* <Link
                       className="transition hover:text-teal-500 dark:hover:text-teal-400"
                       href={"/contact"}
                     >
                       Contacts
-                    </Link>
-                    <Link
+                    </Link> */}
+                    {/* <Link
                       className="transition hover:text-teal-500 dark:hover:text-teal-400"
                       href={"/"}
                     >
                       Achievement
-                    </Link>
+                    </Link> */}
                   </div>
                   <p className="text-sm text-zinc-400 dark:text-zinc-500">
                     © 2024 Kanish I. Mohariya. All rights reserved.
