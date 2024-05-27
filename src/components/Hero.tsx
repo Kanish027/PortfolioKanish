@@ -21,8 +21,8 @@ const Hero = () => {
                 src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
                 alt=""
                 className="rounded-full w-14"
-                width='100'
-                height='100'
+                width="100"
+                height="100"
               />
             </div>
             <div className="max-w-2xl">
@@ -33,10 +33,12 @@ const Hero = () => {
               </div>
               <div>
                 <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-                  I{"'"}m Kanish Mohariya, a Nagpur-based software designer and
-                  developer who has successfully completed an internship at
-                  Trickysys IT Solutions, along with a Full Stack Development
-                  Guaranteed Placement course from Internshala Trainings.
+                  I{"'"}m Kanish Mohariya, a software designer and developer who
+                  has successfully completed an internship at Trickysys IT
+                  Solutions, along with a Full Stack Development Guaranteed
+                  Placement course from Internshala Trainings. I am currently
+                  interning as a Full Stack Developer at IPHIPI Technologies Pvt
+                  Ltd, working on live projects.
                 </p>
               </div>
               <div className="text-white text-2xl mt-6 flex gap-6">
@@ -63,7 +65,7 @@ const Hero = () => {
               </div>
               <div>
                 <Link
-                  href={"/Kanish_Mohariya_Full_Stack_Developer_Resume.pdf"}
+                  href={"/Resume_Kanish_Mohariya_Full_Stack_Developer.pdf"}
                   className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-48"
                   download
                 >
