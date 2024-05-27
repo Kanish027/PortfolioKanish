@@ -31,6 +31,12 @@ export const EductionAndExperiences = [
       "I have completed 6 months of full-stack development training through Internshala Trainings and learned by building small assignments to real world major projects.",
     duration: "Completed in 2024 (6 Months)",
   },
+  {
+    title: "IPHIPI Technologies Pvt Ltd",
+    description:
+      "Currently interning as a Full Stack Developer at IPHIPI Technologies Pvt Ltd, working on live projects and gaining practical experience in full-stack development.",
+    duration: "Completed in 2024 (Present)",
+  },
 ];
 
 export const testimonials = [
