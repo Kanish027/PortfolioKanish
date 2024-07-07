@@ -23,7 +23,7 @@ export const EductionAndExperiences = [
     title: "Trickysys IT Solutions",
     description:
       "Served as a web developer intern at Trickysys IT Solutions, gaining valuable hands-on experience in web development technologies and practices.",
-    duration: "Completed in 2023 (3 Months)",
+    duration: "Completed in 2023 (6 Months)",
   },
   {
     title: "Internshala Trainings",
