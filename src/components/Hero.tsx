@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="my-4">
               <Image
-                src="https://media.licdn.com/dms/image/D5603AQHd8pC3epdBaw/profile-displayphoto-shrink_400_400/0/1710508460302?e=1717027200&v=beta&t=fRjKKSnUz_PLsPZ11jWWKz2wXSWVWxFKArbllxxbq90"
+                src="/1710508460302.jpg"
                 alt=""
                 className="rounded-full w-14"
                 width="100"
@@ -65,7 +65,7 @@ const Hero = () => {
               </div>
               <div>
                 <Link
-                  href={"/Resume_Kanish_Mohariya_Full_Stack_Developer.pdf"}
+                  href={"/Kanish_Mohariya_Full_Stack_Developer_Resume.pdf"}
                   className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-48"
                   download
                 >
